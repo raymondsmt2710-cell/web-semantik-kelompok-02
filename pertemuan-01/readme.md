@@ -11,6 +11,7 @@
 | Postal Code | atribut |
 
 ---
+## 3. Eksplorasi Schema.org
 
 | Nama Properti | Fungsi atau maknanya | Contoh nilai yang dapat digunakan |
 | --- | --- | --- |
