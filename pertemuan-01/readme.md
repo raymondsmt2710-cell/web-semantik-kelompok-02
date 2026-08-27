@@ -55,3 +55,4 @@ Jawaban:
 - Penalaran dan inferensi: AI dapat menarik kesimpulan baru dari relasi yang sudah ada di graph, mendukung sistem tanya-jawab yang lebih cerdas.
 - Personalisasi & rekomendasi: dengan memahami relasi antar preferensi pengguna dan entitas lain, sistem dapat memberi rekomendasi yang lebih relevan.
 - Mendukung Large Language Model: Knowledge Graph dapat digunakan sebagai sumber fakta terstruktur untuk mengurangi halusinasi pada model AI generatif, karena AI bisa memverifikasi jawabannya terhadap data terstruktur yang valid.
+ 
