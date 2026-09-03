@@ -19,15 +19,35 @@ Jelaskan secara singkat struktur XML yang Anda buat.
 5. Atribut ISBN: Wajib dituliskan karena menggunakan `use="required"`
 
 ## 4. Analisis Namespace
-1. Mengapa kedua elemen title tidak sama? ...
-2. Fungsi prefix: ...
-3. Fungsi xmlns: ...
-4. Apakah URI namespace harus dapat dibuka? ...
+1. Mengapa kedua elemen title tidak sama? 
+jawaban:
+    Kedua elemen title tersebut tidak dianggap sama karena masing-masing menggunakan namespace yang berbeda.Walaupun nama lokal elemennya sama-sama title, namespace-nya   berbeda sehingga keduanya dianggap sebagai elemen yang berbeda.
+2. Apa fungsi prefix buku: dan web:?
+jawaban:
+    Prefix buku: dan web: digunakan sebagai penanda atau identitas namespace yang digunakan oleh suatu elemen. Dengan adanya prefix tersebut, XML dapat membedakan elemen yang memiliki nama sama tetapi berasal dari namespace yang berbeda.
+3. Apa fungsi atribut xmlns?
+jawaban:
+    Atribut xmlns digunakan untuk mendeklarasikan namespace dalam dokumen XML.
+4. Apakah URI namespace harus dapat dibuka sebagai halaman web? Jelaskan.
+jawaban:
+    Tidak harus. Karena URI namespace berfungsi sebagai identifier (pengenal) unik untuk membedakan satu namespace dengan namespace lainnya, bukan sebagai alamat halaman web yang harus dapat diakses. Oleh karena itu, URI namespace tidak wajib memiliki halaman web atau konten yang dapat dibuka melalui browser.
 
 ## 5. Pertanyaan Evaluasi
-1. Perbedaan XML dan HTML: ...
-2. Apa yang dimaksud well-formed? ...
-3. Perbedaan well-formed dan valid: ...
-4. Mengapa XSD lebih kuat dibanding DTD? ...
-5. Mengapa namespace penting? ...
-6. Apa kegunaan XPath? ...
+1. Apa perbedaan utama XML dan HTML?
+jawaban:
+    XML digunakan untuk menyimpan dan mengatur data, sedangkan HTML digunakan untuk menampilkan data di halaman web.
+2. Apa yang dimaksud dokumen XML yang well-formed?
+jawaban:
+    Well-formed berarti penulisan XML sudah mengikuti aturan dasar XML. Contohnya, setiap tag yang dibuka harus ditutup dan penulisan tag harus benar.
+3. Jelaskan perbedaan well-formed dan valid.
+jawaban:
+    Well-formed berarti struktur dan penulisan XML sudah benar. Sedangkan Valid berarti XML tersebut selain sudah well-formed, juga mengikuti aturan atau struktur yang sudah ditentukan, misalnya menggunakan DTD atau XSD.   
+4. Mengapa XSD lebih kuat dibandingkan DTD?
+jawaban:
+    Karena XSD dapat mengatur tipe data dengan lebih lengkap, seperti teks, angka, tanggal, dan lainnya. XSD juga menggunakan format XML sehingga lebih fleksibel dibandingkan DTD.
+5. Mengapa namespace penting ketika data XML berasal dari beberapa kosakata berbeda?
+jawaban:
+    Namespace penting untuk membedakan elemen yang memiliki nama yang sama tetapi memiliki arti yang berbeda. Misalnya ada dua title dari sumber yang berbeda, namespace dapat menunjukkan bahwa keduanya berasal dari kosakata yang berbeda.
+6. Apa kegunaan XPath dalam pengolahan dokumen XML?
+jawaban:
+    XPath digunakan untuk mencari atau memilih bagian tertentu dari dokumen XML. Misalnya, kita ingin mengambil semua elemen title atau mencari data tertentu berdasarkan strukturnya.
