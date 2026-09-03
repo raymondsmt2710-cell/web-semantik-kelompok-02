@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<katalog>
+
+    <buku isbn="978-001">
+        <judul>Pengantar Web Semantik</judul>
+        <pengarang>Andi Wijaya</pengarang>
+        <tahun>2024</tahun>
+        <harga>125000</harga>
+    </buku>
+
+    <buku isbn="978-002">
+        <judul>Dasar Knowledge Graph</judul>
+        <pengarang>Siti Rahma</pengarang>
+        <tahun>2023</tahun>
+        <harga>95000</harga>
+    </buku>
+
+    <buku isbn="978-003">
+        <judul>Struktur Data dan Algoritma</judul>
+        <pengarang>Mipo Milas</pengarang>
+        <tahun>2026</tahun>
+        <harga>90000</harga>
+    </buku>
+
+    <buku isbn="978-004">
+        <judul>Konsep Dasar Machine Learning</judul>
+        <pengarang>Rahmat</pengarang>
+        <tahun>2023</tahun>
+        <harga>115000</harga>
+    </buku>
+
+    <buku isbn="978-005">
+        <judul>Analisis Jaringan Komputer</judul>
+        <pengarang>Tuti Yani</pengarang>
+        <tahun>2025</tahun>
+        <harga>200000</harga>
+    </buku>
+
+</katalog>
